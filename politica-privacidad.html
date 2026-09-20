@@ -1,0 +1,145 @@
+<title>Política de Privacidad</title>
+<style>
+  :root{
+    --bg:#faf9f5;
+    --surface:#ffffff;
+    --border:#e3e0d6;
+    --text:#1f2421;
+    --text-muted:#5b6660;
+    --accent:#1b4332;
+    --accent-soft:#e8efe9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12140f;
+      --surface:#181b15;
+      --border:#2a2f26;
+      --text:#eae7dd;
+      --text-muted:#a3ac9f;
+      --accent:#7cb518;
+      --accent-soft:#1e2a18;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12140f;
+    --surface:#181b15;
+    --border:#2a2f26;
+    --text:#eae7dd;
+    --text-muted:#a3ac9f;
+    --accent:#7cb518;
+    --accent-soft:#1e2a18;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Public Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height:1.65;
+    padding-block:56px;
+  }
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding-inline:24px;
+  }
+  .eyebrow{
+    font-size:13px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h1{
+    font-family:"Lora", Georgia, serif;
+    font-size:clamp(28px,5vw,38px);
+    line-height:1.15;
+    margin:0 0 6px;
+    text-wrap:balance;
+  }
+  .updated{
+    color:var(--text-muted);
+    font-size:14px;
+    margin-bottom:36px;
+  }
+  h2{
+    font-family:"Lora", Georgia, serif;
+    font-size:20px;
+    margin:40px 0 10px;
+    border-top:1px solid var(--border);
+    padding-top:28px;
+  }
+  h2:first-of-type{border-top:none;padding-top:0;}
+  p{margin:0 0 14px;color:var(--text);}
+  ul{margin:0 0 14px;padding-left:20px;}
+  li{margin-bottom:6px;}
+  .box{
+    background:var(--accent-soft);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:16px 18px;
+    margin:24px 0;
+    font-size:15px;
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin:16px 0 24px;
+    font-size:14px;
+  }
+  th,td{
+    text-align:left;
+    padding:10px 12px;
+    border-bottom:1px solid var(--border);
+  }
+  th{color:var(--text-muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em;}
+  a{color:var(--accent);}
+  footer{
+    margin-top:48px;
+    padding-top:20px;
+    border-top:1px solid var(--border);
+    font-size:13px;
+    color:var(--text-muted);
+  }
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">Agro Biotecnología · Auto Publish</div>
+  <h1>Política de Privacidad</h1>
+  <div class="updated">Última actualización: 19 de septiembre de 2026</div>
+
+  <div class="box">
+    Esta aplicación es una herramienta de uso personal operada por Miguel Ángel Pérez Pérez para publicar contenido propio en la cuenta de TikTok del canal Agro Biotecnología. No recopila datos de usuarios de TikTok ni de ningún otro tercero.
+  </div>
+
+  <h2>1. Qué datos procesa la aplicación</h2>
+  <p>La aplicación solo procesa la información necesaria para autenticarse y publicar en la cuenta de TikTok del propio desarrollador, a través de la API oficial de TikTok (Content Posting API):</p>
+  <table>
+    <tr><th>Dato</th><th>Uso</th></tr>
+    <tr><td>Token de acceso (access token) y Open ID de TikTok</td><td>Autorizar la publicación de videos en la cuenta del canal, según el flujo oficial de OAuth de TikTok</td></tr>
+    <tr><td>Archivos de video</td><td>Contenido educativo producido por el desarrollador, enviado a TikTok para su publicación</td></tr>
+  </table>
+
+  <h2>2. Qué NO recopila la aplicación</h2>
+  <ul>
+    <li>No recopila datos personales de otros usuarios de TikTok.</li>
+    <li>No accede a mensajes, contactos ni información privada de ninguna cuenta.</li>
+    <li>No comparte ni vende ningún dato a terceros.</li>
+    <li>No usa la información para publicidad ni con fines distintos a publicar el contenido del propio canal.</li>
+  </ul>
+
+  <h2>3. Dónde se almacenan los datos</h2>
+  <p>Las credenciales de autenticación (token de acceso) se almacenan localmente en el equipo del desarrollador, únicamente para permitir que la aplicación publique en su propia cuenta sin repetir el inicio de sesión cada vez. No se almacenan en ningún servidor de terceros.</p>
+
+  <h2>4. Cómo revocar el acceso</h2>
+  <p>El desarrollador puede revocar en cualquier momento el acceso de esta aplicación a su cuenta de TikTok desde la configuración de aplicaciones conectadas de TikTok.</p>
+
+  <h2>5. Cambios a esta política</h2>
+  <p>Esta política puede actualizarse si cambia el alcance o el funcionamiento de la aplicación. La fecha de última actualización se indica en la parte superior de esta página.</p>
+
+  <h2>6. Contacto</h2>
+  <p>Para cualquier consulta sobre privacidad, escribe a <a href="mailto:agrobiotecnologia.oficial@gmail.com">agrobiotecnologia.oficial@gmail.com</a>.</p>
+
+  <footer>Agro Biotecnología — canal educativo de divulgación científica en agrobiotecnología.</footer>
+</div>
